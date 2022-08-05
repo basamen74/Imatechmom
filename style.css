@@ -1,0 +1,146 @@
+
+body {
+  background-color:lightblue ;
+  
+}
+
+.city-image{
+  height: auto;
+  width: 80vw;
+   border: 1px solid green
+   
+}
+.image-container{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between; 
+  background-color: lightskyblue;
+  padding-top: 40px;
+      
+}
+
+#nav{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-item: center;
+  list-style-type: none;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item{
+  padding: 20px;
+}
+
+    
+.box-container{
+background-color: lightskyblue;
+align-items: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: none;
+border: 2px solid green;
+padding-top: 20px;
+
+}
+
+ul {
+ align-items: center;
+ justify-content: space-evenly;
+ list-style-type: none;
+  flex-direction: row-reverse;
+}
+
+li{
+display: flex;
+align-items: center;
+ justify-content: center;
+ list-style-type: none;
+ text-shadow: 1px 1px 
+} 
+.contact-1{
+display: flex;
+justify-content: center;
+text-shadow: 1px 1px 
+}
+
+.contact-2{
+display: flex;
+justify-content: center;
+text-shadow: 1px 1px 
+} 
+
+.contact-3{
+display: flex;
+justify-content: center;
+text-shadow: 1px 1px 
+} 
+
+
+.autism-picture{
+    height: 300px;
+ 
+  } 
+.beauty-autism{
+  height: 300px;
+  
+}
+.women-entrepreneur{
+  height: 300px;
+}
+
+.best-teacher{
+  height: 300px;
+}
+
+
+img{
+ margin-top: 100px;
+  Margin-bottom: 100px;
+  border: 2px solid powderblue;
+  margin: 20px;
+  height: auto;
+  max-width: 100%  
+  }
+
+
+h1 {
+  color: Red;
+  text-align: center;
+  background-color: lightgrey;
+  width: px;
+  border: 15px solid green;
+  padding: 0px;
+  margin: 20px;
+}
+  
+ 
+p{
+  font-family: verdana;
+  font-size: 15px; 
+   margin-right: 10px;
+  
+  
+  }
+  
+
+  
+@media only screen and (max-width: 620px) {
+    .menu, .main, .right {
+    width: 100%;
+
+   
+  }
+   
+    
+  }
+  
